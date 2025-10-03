@@ -1,0 +1,130 @@
+{
+  "organs": [
+    {
+      "id": "lungs",
+      "name": "Pulmões",
+      "system": "Respiratório",
+      "svgId": "organ-lungs",
+      "weight": 0.18,
+      "metrics": ["oxygen_uptake", "cilia_health", "inflammation"],
+      "narration": {
+        "what_happens": "O tabagismo deposita alcatrão e mais de 70 carcinógenos conhecidos nos pulmões, danifica os cílios respiratórios (estruturas que limpam as vias aéreas) e causa inflamação crónica. Estudos mostram que fumadores têm 15-30 vezes maior risco de cancro do pulmão e redução significativa da capacidade pulmonar. A poluição do ar e exposição ocupacional a partículas também contribuem para doenças respiratórias.",
+        "what_helps": "Parar de fumar permite recuperação parcial: os cílios começam a regenerar-se em 1-2 semanas, e o risco de cancro diminui gradualmente ao longo de 10-15 anos. Exercício aeróbico regular (150 min/semana de intensidade moderada) melhora a capacidade pulmonar e eficiência do intercâmbio gasoso. Evitar poluentes ambientais e manter boa qualidade do ar interior são medidas preventivas comprovadas."
+      },
+      "healthyColor": "#ff9999",
+      "affectedColor": "#cc3333"
+    },
+    {
+      "id": "heart",
+      "name": "Coração",
+      "system": "Cardiovascular",
+      "svgId": "organ-heart",
+      "weight": 0.20,
+      "metrics": ["blood_pressure", "rhythm", "arterial_health"],
+      "narration": {
+        "what_happens": "O tabagismo acelera a aterosclerose (acumulação de placas nas artérias) e aumenta o risco de enfarte em 2-4 vezes. O sedentarismo contribui para hipertensão, dislipidemia e descondicionamento cardiovascular. O stress crónico eleva o cortisol, que aumenta a pressão arterial e promove inflamação vascular. Dietas ricas em gorduras saturadas e sódio agravam estes fatores de risco.",
+        "what_helps": "Exercício aeróbico regular reduz a pressão arterial em 5-10 mmHg e fortalece o músculo cardíaco. A dieta mediterrânica, rica em ómega-3, reduz eventos cardiovasculares em 30% (estudo PREDIMED). Técnicas de gestão de stress como meditação podem reduzir a pressão arterial. Parar de fumar reduz o risco de doença cardíaca em 50% após 1 ano."
+      },
+      "healthyColor": "#ff6b6b",
+      "affectedColor": "#cc1f1f"
+    },
+    {
+      "id": "brain",
+      "name": "Cérebro",
+      "system": "Nervoso",
+      "svgId": "organ-brain",
+      "weight": 0.22,
+      "metrics": ["cognitive_function", "mood", "neuroplasticity"],
+      "narration": {
+        "what_happens": "O álcool causa neurotoxicidade direta, atrofia cerebral e défices de memória. Estudos mostram que o consumo excessivo pode reduzir o volume cerebral em 1-2%. Drogas recreativas alteram os sistemas de neurotransmissores, particularmente dopamina e serotonina. O stress crónico eleva o cortisol, causando atrofia do hipocampo (área crucial para memória) e neuroinflamação.",
+        "what_helps": "Exercício físico aumenta o BDNF (fator neurotrófico) em 15-30% e promove neurogénese no hipocampo. Sono adequado (7-9 horas) é essencial para consolidação da memória e limpeza de proteínas tóxicas via sistema glinfático. Meditação mindfulness pode aumentar a densidade da matéria cinzenta em áreas relacionadas com atenção e regulação emocional. Estimulação cognitiva através de aprendizagem contínua mantém a reserva cognitiva."
+      },
+      "healthyColor": "#ffa8a8",
+      "affectedColor": "#cc4444"
+    },
+    {
+      "id": "liver",
+      "name": "Fígado",
+      "system": "Digestivo",
+      "svgId": "organ-liver",
+      "weight": 0.16,
+      "metrics": ["detoxification", "metabolism", "inflammation"],
+      "narration": {
+        "what_happens": "O álcool é metabolizado no fígado, produzindo acetaldeído (tóxico) e causando esteatose (fígado gordo), fibrose e eventualmente cirrose. Mesmo 2-3 bebidas diárias podem causar danos hepáticos. Alimentos ultraprocessados, ricos em frutose e gorduras trans, contribuem para doença hepática não alcoólica, que afeta 25% da população mundial. Medicamentos em excesso também sobrecarregam a função hepática.",
+        "what_helps": "Reduzir ou eliminar o álcool permite regeneração hepática significativa - o fígado pode regenerar até 75% do seu tecido. Dieta rica em antioxidantes (vitaminas C, E, selénio) e fibras apoia a desintoxicação. Exercício regular melhora a sensibilidade à insulina e reduz a gordura hepática. Manter peso saudável é crucial - perda de 7-10% do peso corporal pode reverter esteatose."
+      },
+      "healthyColor": "#cc7a5c",
+      "affectedColor": "#994433"
+    },
+    {
+      "id": "kidneys",
+      "name": "Rins",
+      "system": "Urinário",
+      "svgId": "organ-kidneys",
+      "weight": 0.12,
+      "metrics": ["filtration", "blood_pressure_control", "electrolyte_balance"],
+      "narration": {
+        "what_happens": "A hipertensão não controlada é a segunda causa principal de insuficiência renal, danificando os pequenos vasos sanguíneos (glomérulos) que filtram o sangue. Diabetes causa nefropatia diabética em 20-40% dos diabéticos. Algumas drogas recreativas, particularmente estimulantes, podem causar necrose tubular aguda. Desidratação crónica e excesso de sódio sobrecarregam a função renal.",
+        "what_helps": "Hidratação adequada (1.5-2L água/dia para adultos saudáveis) mantém função renal ótima e previne cálculos renais. Controlo da pressão arterial (<130/80 mmHg) é crucial para prevenir danos renais. Dieta com baixo teor de sódio (<2.3g/dia) reduz a carga de trabalho renal. Exercício regular ajuda no controlo da pressão arterial e diabetes, protegendo indiretamente os rins."
+      },
+      "healthyColor": "#8B4513",
+      "affectedColor": "#654321"
+    },
+    {
+      "id": "gut",
+      "name": "Intestino",
+      "system": "Digestivo",
+      "svgId": "organ-gut",
+      "weight": 0.14,
+      "metrics": ["microbiome_diversity", "barrier_function", "inflammation"],
+      "narration": {
+        "what_happens": "Alimentos ultraprocessados reduzem a diversidade do microbioma intestinal e aumentam bactérias pró-inflamatórias. Estudos mostram que dietas ocidentais podem reduzir a diversidade microbiana em 25-40%. O stress crónico altera o eixo intestino-cérebro, aumentando a permeabilidade intestinal ('leaky gut') e inflamação sistémica. Antibióticos, embora necessários quando prescritos, podem disrumper temporariamente o microbioma.",
+        "what_helps": "Fibras prebióticas (25-35g/dia) alimentam bactérias benéficas e aumentam a diversidade microbiana. Alimentos fermentados como iogurte, kefir e vegetais fermentados fornecem probióticos vivos. Exercício regular aumenta a diversidade microbiana e melhora a motilidade intestinal. Gestão do stress através de técnicas comprovadas melhora a comunicação intestino-cérebro."
+      },
+      "healthyColor": "#DEB887",
+      "affectedColor": "#CD853F"
+    },
+    {
+      "id": "skin",
+      "name": "Pele",
+      "system": "Tegumentar",
+      "svgId": "organ-skin",
+      "weight": 0.08,
+      "metrics": ["hydration", "elasticity", "inflammation"],
+      "narration": {
+        "what_happens": "O tabagismo reduz o fluxo sanguíneo cutâneo em até 40%, acelera a degradação do colagénio e elastina, causando envelhecimento precoce e rugas. A exposição solar excessiva causa danos no ADN das células da pele e aumenta o risco de cancro cutâneo. O stress crónico pode agravar condições inflamatórias como eczema e psoríase através de mecanismos neuro-imunológicos.",
+        "what_helps": "Proteção solar adequada (FPS 30+) previne 80% dos sinais de envelhecimento cutâneo. Hidratação adequada mantém a função de barreira da pele. Dieta rica em antioxidantes (vitaminas C, E, carotenoides) protege contra danos dos radicais livres. Sono adequado permite reparação celular - estudos mostram que privação de sono acelera sinais de envelhecimento cutâneo."
+      },
+      "healthyColor": "#FDBCB4",
+      "affectedColor": "#E6967A"
+    },
+    {
+      "id": "bladder",
+    "name": "Bexiga",
+    "system": "Urinário",
+    "svgId": "organ-bladder",
+    "weight": 0.06,
+    "metrics": ["capacity", "control", "infection_resistance"],
+    "narration": {
+      "what_happens": "A desidratação crónica concentra a urina, irritando a parede da bexiga e aumentando o risco de infeções urinárias em 3-5 vezes. O stress crónico pode causar bexiga hiperativa através da disfunção do sistema nervoso autónomo. O álcool atua como diurético e irritante, causando urgência urinária e interrupção do sono. Estudos mostram que o consumo excessivo de cafeína pode aumentar a frequência urinária em 20-30%.",
+      "what_helps": "Hidratação adequada (1.5-2L/dia) dilui a urina e reduz irritação da bexiga. Exercícios do pavimento pélvico (Kegel) fortalecem os músculos de controlo urinário e podem reduzir incontinência em 60-70% dos casos. Evitar irritantes como álcool, cafeína em excesso e alimentos ácidos melhora os sintomas de bexiga hiperativa. Técnicas de gestão de stress reduzem a urgência urinária relacionada com ansiedade."
+    },
+    "healthyColor": "#FFE4B5",
+    "affectedColor": "#DEB887"
+  },
+  {
+    "id": "liver",
+    "name": "Fígado",
+    "system": "Digestivo",
+    "svgId": "organ-liver-new",
+    "weight": 0.18,
+    "metrics": ["detoxification", "metabolism", "regeneration"],
+    "narration": {
+      "what_happens": "O álcool é metabolizado no fígado, produzindo acetaldeído (altamente tóxico) e causando esteatose hepática, fibrose e eventualmente cirrose. Mesmo 2-3 bebidas diárias podem causar danos hepáticos mensuráveis. Drogas recreativas, especialmente estimulantes e paracetamol em overdose, podem causar necrose hepática aguda. Alimentos ultraprocessados ricos em frutose contribuem para doença hepática não alcoólica (NAFLD), que afeta 25-30% da população adulta.",
+      "what_helps": "O fígado tem capacidade regenerativa notável - pode regenerar até 75% do seu tecido quando os fatores de dano são removidos. Reduzir ou eliminar álcool permite recuperação significativa em 2-4 semanas. Exercício regular melhora a sensibilidade à insulina e reduz gordura hepática em 20-30%. Dieta rica em antioxidantes (vitaminas C, E, selénio) e fibras apoia os processos de desintoxicação. Manter peso saudável é crucial - perda de 7-10% do peso corporal pode reverter esteatose."
+    },
+    "healthyColor": "#CD853F",
+    "affectedColor": "#8B4513"
+  }
+  ]
+}

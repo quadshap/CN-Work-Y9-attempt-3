@@ -1,0 +1,312 @@
+{
+  "organMappings": {
+    "lungs": {
+      "topHarmful": [
+        {
+          "habitId": "smoking",
+          "impact": 0.75,
+          "mechanism": "Tar and carcinogen deposition, cilia dysfunction, chronic airway inflammation - increases lung cancer risk 15-30x",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "sedentary",
+          "impact": 0.20,
+          "mechanism": "Reduced respiratory muscle strength and lung capacity - sedentary adults have 5-10% lower lung function",
+          "evidenceLevel": "moderate"
+        },
+        {
+          "habitId": "chronic_stress",
+          "impact": 0.15,
+          "mechanism": "Cortisol-mediated immune suppression increases respiratory infection susceptibility",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "topBeneficial": [
+        {
+          "habitId": "exercise",
+          "impact": 0.60,
+          "mechanism": "Aerobic exercise increases VO2 max by 15-25% and strengthens respiratory muscles",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "healthy_diet",
+          "impact": 0.25,
+          "mechanism": "Antioxidants (vitamins C, E) and omega-3 fatty acids reduce airway inflammation",
+          "evidenceLevel": "moderate"
+        },
+        {
+          "habitId": "hydration",
+          "impact": 0.20,
+          "mechanism": "Adequate hydration maintains mucociliary clearance and respiratory tract moisture",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "baselineHealth": 80,
+      "riskFactors": ["respiratory_infection", "copd", "lung_cancer"]
+    },
+    "heart": {
+      "topHarmful": [
+        {
+          "habitId": "smoking",
+          "impact": 0.70,
+          "mechanism": "Accelerates atherosclerosis, increases MI risk 2-4x, elevates blood pressure 5-10 mmHg",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "sedentary",
+          "impact": 0.55,
+          "mechanism": "Increases CVD risk by 30-35%, reduces cardiac output and arterial compliance",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "chronic_stress",
+          "impact": 0.45,
+          "mechanism": "Chronic cortisol elevation increases BP by 10-15 mmHg and promotes vascular inflammation",
+          "evidenceLevel": "strong"
+        }
+      ],
+      "topBeneficial": [
+        {
+          "habitId": "exercise",
+          "impact": 0.70,
+          "mechanism": "Reduces CVD mortality by 30-35%, lowers resting BP by 5-10 mmHg, improves cardiac output",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "healthy_diet",
+          "impact": 0.50,
+          "mechanism": "Mediterranean diet reduces CVD events by 30% (PREDIMED study), lowers LDL cholesterol 10-15%",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "meditation",
+          "impact": 0.35,
+          "mechanism": "Mindfulness meditation reduces BP by 3-5 mmHg through parasympathetic activation",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "baselineHealth": 75,
+      "riskFactors": ["heart_attack", "stroke", "hypertension"]
+    },
+    "brain": {
+      "topHarmful": [
+        {
+          "habitId": "alcohol",
+          "impact": 0.65,
+          "mechanism": "Chronic use causes 1-2% brain volume reduction, hippocampal atrophy, and memory deficits",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "drugs",
+          "impact": 0.75,
+          "mechanism": "Disrupts dopamine/serotonin systems, causes structural brain changes and cognitive impairment",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "chronic_stress",
+          "impact": 0.50,
+          "mechanism": "Chronic cortisol causes hippocampal atrophy, impairs neurogenesis and memory consolidation",
+          "evidenceLevel": "strong"
+        }
+      ],
+      "topBeneficial": [
+        {
+          "habitId": "exercise",
+          "impact": 0.65,
+          "mechanism": "Increases BDNF by 15-30%, promotes hippocampal neurogenesis, improves cognitive function",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "meditation",
+          "impact": 0.50,
+          "mechanism": "8-week mindfulness increases gray matter density in attention and emotional regulation areas",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "reading",
+          "impact": 0.35,
+          "mechanism": "Builds cognitive reserve, may delay dementia onset by 2-3 years through mental stimulation",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "baselineHealth": 78,
+      "riskFactors": ["dementia", "depression", "cognitive_decline"]
+    },
+    "liver": {
+      "topHarmful": [
+        {
+          "habitId": "alcohol",
+          "impact": 0.80,
+          "mechanism": "Metabolizes to toxic acetaldehyde, causes steatosis, fibrosis, and cirrhosis - 2-3 drinks/day increases risk",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "processed_diet",
+          "impact": 0.45,
+          "mechanism": "High fructose and trans fats cause NAFLD in 25% of population, promotes insulin resistance",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "sedentary",
+          "impact": 0.30,
+          "mechanism": "Increases hepatic fat accumulation and insulin resistance, doubles NAFLD risk",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "topBeneficial": [
+        {
+          "habitId": "healthy_diet",
+          "impact": 0.55,
+          "mechanism": "Antioxidants (vitamins C, E, selenium) support detoxification, fiber reduces hepatic fat",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "exercise",
+          "impact": 0.45,
+          "mechanism": "7-10% weight loss can reverse steatosis, exercise improves insulin sensitivity by 20-25%",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "hydration",
+          "impact": 0.25,
+          "mechanism": "Adequate hydration supports hepatic blood flow and detoxification enzyme function",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "baselineHealth": 75,
+      "riskFactors": ["fatty_liver", "cirrhosis", "liver_cancer"]
+    },
+    "kidneys": {
+      "topHarmful": [
+        {
+          "habitId": "drugs",
+          "impact": 0.65,
+          "mechanism": "Stimulants cause acute tubular necrosis, chronic use leads to progressive kidney damage",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "chronic_stress",
+          "impact": 0.35,
+          "mechanism": "Chronic hypertension (>140/90) is 2nd leading cause of kidney failure, damages glomeruli",
+          "evidenceLevel": "moderate"
+        },
+        {
+          "habitId": "processed_diet",
+          "impact": 0.30,
+          "mechanism": "Excess sodium (>2.3g/day) increases kidney workload and hypertension risk",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "topBeneficial": [
+        {
+          "habitId": "hydration",
+          "impact": 0.65,
+          "mechanism": "1.5-2L/day maintains GFR, prevents kidney stones, supports optimal filtration",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "healthy_diet",
+          "impact": 0.40,
+          "mechanism": "Low sodium (<2.3g/day) and DASH diet reduce kidney disease progression by 20-30%",
+          "evidenceLevel": "moderate"
+        },
+        {
+          "habitId": "exercise",
+          "impact": 0.25,
+          "mechanism": "Regular exercise reduces hypertension, indirectly protecting kidney function",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "baselineHealth": 80,
+      "riskFactors": ["kidney_disease", "kidney_stones", "hypertension"]
+    },
+    "gut": {
+      "topHarmful": [
+        {
+          "habitId": "processed_diet",
+          "impact": 0.70,
+          "mechanism": "Western diet reduces microbiome diversity by 25-40%, increases pro-inflammatory bacteria",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "chronic_stress",
+          "impact": 0.50,
+          "mechanism": "Chronic stress increases intestinal permeability and alters gut-brain axis communication",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "alcohol",
+          "impact": 0.35,
+          "mechanism": "Chronic alcohol consumption damages intestinal barrier and promotes bacterial overgrowth",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "topBeneficial": [
+        {
+          "habitId": "healthy_diet",
+          "impact": 0.70,
+          "mechanism": "25-35g fiber/day increases microbiome diversity, fermented foods provide live probiotics",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "exercise",
+          "impact": 0.40,
+          "mechanism": "Regular exercise increases microbiome diversity by 15-20% and improves gut motility",
+          "evidenceLevel": "moderate"
+        },
+        {
+          "habitId": "meditation",
+          "impact": 0.30,
+          "mechanism": "Stress reduction techniques improve gut-brain axis function and reduce inflammation",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "baselineHealth": 70,
+      "riskFactors": ["ibs", "inflammatory_bowel", "digestive_issues"]
+    },
+    "skin": {
+      "topHarmful": [
+        {
+          "habitId": "smoking",
+          "impact": 0.60,
+          "mechanism": "Reduces skin blood flow by 40%, accelerates collagen degradation, causes premature aging",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "chronic_stress",
+          "impact": 0.40,
+          "mechanism": "Chronic cortisol impairs collagen synthesis and wound healing, exacerbates inflammatory conditions",
+          "evidenceLevel": "moderate"
+        },
+        {
+          "habitId": "processed_diet",
+          "impact": 0.25,
+          "mechanism": "High sugar intake forms AGEs that damage collagen and elastin, promoting skin aging",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "topBeneficial": [
+        {
+          "habitId": "hydration",
+          "impact": 0.55,
+          "mechanism": "Adequate hydration maintains skin barrier function and elasticity, prevents dryness",
+          "evidenceLevel": "strong"
+        },
+        {
+          "habitId": "healthy_diet",
+          "impact": 0.45,
+          "mechanism": "Vitamins C, E and carotenoids protect against UV damage and support collagen synthesis",
+          "evidenceLevel": "moderate"
+        },
+        {
+          "habitId": "sleep_consistency",
+          "impact": 0.35,
+          "mechanism": "7-9 hours sleep allows cellular repair, growth hormone release for skin regeneration",
+          "evidenceLevel": "moderate"
+        }
+      ],
+      "baselineHealth": 75,
+      "riskFactors": ["premature_aging", "skin_cancer", "dermatitis"]
+    }
+  }
+}
