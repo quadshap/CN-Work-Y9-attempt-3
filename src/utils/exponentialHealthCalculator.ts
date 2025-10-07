@@ -18,7 +18,8 @@ const HABIT_IMPACTS = {
     primary: { stat: 'mentalHealth', impact: -20 },
     secondary: [
       { stat: 'cognitiveFunction', impact: -15 },
-      { stat: 'overallHealth', impact: -12 }
+      { stat: 'overallHealth', impact: -12 },
+      { stat: 'happiness', impact: -18 }
     ],
     minimal: [
       { stat: 'lifeExpectancy', impact: -8 },
@@ -31,7 +32,8 @@ const HABIT_IMPACTS = {
     primary: { stat: 'physicalHealth', impact: -18 },
     secondary: [
       { stat: 'lifeExpectancy', impact: -12 },
-      { stat: 'diseaseRisk', impact: 18 }
+      { stat: 'diseaseRisk', impact: 18 },
+      { stat: 'happiness', impact: -14 }
     ],
     minimal: [
       { stat: 'overallHealth', impact: -6 },
@@ -44,7 +46,8 @@ const HABIT_IMPACTS = {
     primary: { stat: 'overallHealth', impact: -16 },
     secondary: [
       { stat: 'mentalHealth', impact: -10 },
-      { stat: 'cognitiveFunction', impact: -8 }
+      { stat: 'cognitiveFunction', impact: -8 },
+      { stat: 'happiness', impact: -15 }
     ],
     minimal: [
       { stat: 'physicalHealth', impact: -5 },
@@ -57,10 +60,10 @@ const HABIT_IMPACTS = {
     primary: { stat: 'mentalHealth', impact: -18 },
     secondary: [
       { stat: 'stressLoad', impact: 15 },
-      { stat: 'sleepQuality', impact: -10 }
+      { stat: 'sleepQuality', impact: -10 },
+      { stat: 'happiness', impact: -16 }
     ],
     minimal: [
-      { stat: 'happiness', impact: -6 },
       { stat: 'immuneSystem', impact: -4 }
     ]
   },
@@ -70,7 +73,8 @@ const HABIT_IMPACTS = {
     primary: { stat: 'metabolicHealth', impact: -15 },
     secondary: [
       { stat: 'physicalHealth', impact: -8 },
-      { stat: 'inflammation', impact: 10 }
+      { stat: 'inflammation', impact: 10 },
+      { stat: 'happiness', impact: -10 }
     ],
     minimal: [
       { stat: 'overallHealth', impact: -4 },
@@ -83,7 +87,8 @@ const HABIT_IMPACTS = {
     primary: { stat: 'physicalFitness', impact: -14 },
     secondary: [
       { stat: 'physicalHealth', impact: -8 },
-      { stat: 'cardioStrain', impact: 8 }
+      { stat: 'cardioStrain', impact: 8 },
+      { stat: 'happiness', impact: -12 }
     ],
     minimal: [
       { stat: 'mentalHealth', impact: -3 },
@@ -120,7 +125,8 @@ const HABIT_IMPACTS = {
     // Specialized attention/social impact
     primary: { stat: 'cognitiveFunction', impact: -10 },
     secondary: [
-      { stat: 'happiness', impact: -5 }
+      { stat: 'happiness', impact: -12 },
+      { stat: 'mentalHealth', impact: -8 }
     ],
     minimal: [
       { stat: 'sleepQuality', impact: -3 }
